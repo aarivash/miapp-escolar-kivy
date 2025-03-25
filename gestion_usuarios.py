@@ -13,4 +13,4 @@ def guardar_usuario(correo, alias):
     usuarios = cargar_usuarios()
     usuarios[correo] = {"alias": alias}
     with open(DB_FILE, "w") as f:
-        json.dump(usuarios, f)
+        json.dump(usuarios, f, indent=4)
