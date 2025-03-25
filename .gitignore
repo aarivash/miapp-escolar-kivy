@@ -1,0 +1,17 @@
+# Archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Entorno virtual
+venv/
+
+# Base de datos local (no versionar usuarios reales ni historial)
+usuarios.json
+historial.json
+
+# Códigos QR generados
+qr/
+
+# Configuraciones de VSCode (opcional)
+.vscode/
